@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+/* GENERAL */
+.blue-text {
+    color: #004cff;
+}
+
+.green-text {
+    color: #00b2a9;
+}
+
+.padding-generic {
+    padding: 70px 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* NAVIGATION */
+.nav-item .nav-link {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.nav-item .nav-link.active {
+    border-bottom: 2px solid #00b2a9;
+}
+
+/* HERO SECTION */
+.dark-overlay {
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .4)), url('../img/fyzioHeroImage.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#hero .container {
+    height: 80vh;
+}
+
+#hero .container p {
+    font-size: 130%;
+    font-weight: 300;
+}
+
+#hero .btn {
+    border: 1px solid #004cff;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 100;
+    border-radius: 25px;
+}
+
+#hero .btn:hover,
+#hero .btn:focus {
+    background: #004cff;
+}
+
+/* PRICING */
+#pricing .container {
+    min-height: 70vh;
+}
+
+#pricing .table thead {
+    background: #00b2a9;
+    color: #fff;
+}
+
+#pricing .table thead tr th {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+
+/* PRICING */
+footer {
+    background: #004cff;
+}
